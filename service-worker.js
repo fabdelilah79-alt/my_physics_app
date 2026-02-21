@@ -5,7 +5,7 @@
 // Update CACHE_VERSION when deploying new content
 // =====================================================
 
-const CACHE_VERSION = 'sspoe-v12';
+const CACHE_VERSION = 'sspoe-v13';
 
 const PRECACHE_ASSETS = [
     './',
@@ -113,3 +113,4 @@ self.addEventListener('fetch', (event) => {
             })
     );
 });
+
